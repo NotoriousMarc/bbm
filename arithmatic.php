@@ -1,7 +1,7 @@
 <?php
 
 $num1 = 20;
-$num2 = 0;
+$num2 = 17;
 $addTotal = add($num1,$num2);
 $multiplyTotal = multiply($num1,$num2);
 $minusTotal = minus($num1,$num2);
