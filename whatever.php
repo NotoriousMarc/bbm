@@ -11,3 +11,5 @@ echo "My name is " . $firstName . " " . $lastName . " and my age is " . $age .  
 
 echo "My name is $firstName $lastName and my age is $age. My daughter's name is $daughtersName and my wife's name is $wifesName. ";
 
+
+
