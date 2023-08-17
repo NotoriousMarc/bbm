@@ -1,10 +1,22 @@
 <?php
 
-$totalNumbers = 20;
+$totalNumbers = 50;
 $numbers = [];
 
 for ($i=1; $i <= $totalNumbers; $i++) {
-    $numbers[] = $i;
+    $numbers[] = $i++;
 }
 
-## Marc!!! mek sure yuh finish this before me affi come light up yuh bloodclaat, Regards, BBR
+printNumbers($numbers);
+
+function printNumbers (array $numbers) : void
+{
+foreach ($numbers as $numbers) {
+
+   
+    echo "this number is an odd number " . $numbers . "." . "<br>";
+
+}
+
+
+}
